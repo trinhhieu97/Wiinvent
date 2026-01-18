@@ -1,0 +1,40 @@
+server:
+  port: ${SERVER_PORT:8080}
+
+spring:
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/postgres}
+    username: ${DB_USERNAME:postgres}
+    password: ${DB_PASSWORD:Trinhhieu@97}
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+  liquibase:
+    enabled: true
+    change-log: classpath:/db/changelog/db.changelog-master.yaml
+
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 500MB
+      max-request-size: 500MB
+
+  data:
+    redis:
+      host: ${REDIS_HOST:localhost}
+      port: ${REDIS_PORT:6379}
+      password: ${REDIS_PASSWORD:123456}
+      timeout: 2000ms
+
+jwt:
+  secret: ${JWT_SECRET:Y2JkN2M4NjU3NTM4Y2ZiNDEyMjU5NjM1ZGVhMDIwOGFiMzZiYjY0MTJmMDVlZTY3ZTQyMzZjMTA4YWIxODk3YzI4MTkxNTkzZjFmYmQ5ZGM5MTA1NmVmZjAyODExZTQxMGRlMWI1M2U5MDEzNDY1ZDJhMmZiODhmMDI0MWYyNWQ=}
+  expiration: ${JWT_EXPIRATION:3600000}
+
+application:
+  checkin:
+    max-days-per-month: 7

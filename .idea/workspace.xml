@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="829e55d1-8e97-497c-b5a4-3eda06be76cc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wiinvent/com/vn/WiinventApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wiinvent/com/vn/aop/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wiinvent/com/vn/config/CheckinConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wiinvent/com/vn/config/JwtConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wiinvent/com/vn/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wiinvent/com/vn/config/RedissonConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wiinvent/com/vn/constant/ResponseCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wiinvent/com/vn/constant/enums/CheckinButtonState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wiinvent/com/vn/constant/enums/PointHistoryType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wiinvent/com/vn/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wiinvent/com/vn/controller/CheckinController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wiinvent/com/vn/controller/PointController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wiinvent/com/vn/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wiinvent/com/vn/domain/CheckinRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wiinvent/com/vn/domain/PointHistory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wiinvent/com/vn/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wiinvent/com/vn/dto/common/BasePageResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wiinvent/com/vn/dto/common/ResponseData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wiinvent/com/vn/dto/request/LoginRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wiinvent/com/vn/dto/request/RegisterRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wiinvent/com/vn/dto/response/AccessTokenResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wiinvent/com/vn/dto/response/CheckinDayStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wiinvent/com/vn/dto/response/CheckinStatusResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wiinvent/com/vn/dto/response/PointHistoryResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wiinvent/com/vn/dto/response/UserProfileResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wiinvent/com/vn/exception/ApplicationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wiinvent/com/vn/redis/CheckinRedisService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wiinvent/com/vn/repository/CheckinRecordRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wiinvent/com/vn/repository/PointHistoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wiinvent/com/vn/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wiinvent/com/vn/security/CustomUserDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wiinvent/com/vn/security/JwtAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wiinvent/com/vn/security/JwtData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wiinvent/com/vn/security/JwtTokenProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wiinvent/com/vn/security/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wiinvent/com/vn/service/base/AuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wiinvent/com/vn/service/base/CheckinService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wiinvent/com/vn/service/base/PointService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wiinvent/com/vn/service/base/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wiinvent/com/vn/service/impl/AuthServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wiinvent/com/vn/service/impl/CheckinServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wiinvent/com/vn/service/impl/PointServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wiinvent/com/vn/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wiinvent/com/vn/service/reward/DefaultRewardStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wiinvent/com/vn/service/reward/RewardStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wiinvent/com/vn/util/CheckinTimeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wiinvent/com/vn/util/DateTimeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wiinvent/com/vn/util/ModelMapperUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/wiinvent/com/vn/util/RequestContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/changelog/db.changelog-master.yaml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="38LhWc208G5Kqm5Hq5fOFlTnVhL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/user/Pictures/Wiinvent",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="WiinventApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Wiinvent" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="wiinvent.com.vn.WiinventApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="829e55d1-8e97-497c-b5a4-3eda06be76cc" name="Changes" comment="" />
+      <created>1768584793245</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1768584793245</updated>
+      <workItem from="1768584794353" duration="9000" />
+      <workItem from="1768620230958" duration="48615000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

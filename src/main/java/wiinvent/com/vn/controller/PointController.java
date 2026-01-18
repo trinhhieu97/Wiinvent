@@ -1,5 +1,6 @@
 package wiinvent.com.vn.controller;
 
+import io.swagger.v3.oas.annotations.Operation;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -19,12 +20,20 @@ import wiinvent.com.vn.util.RequestContext;
 public class PointController {
     private final PointService pointService;
 
+    @Operation(
+            summary = "Get point history",
+            description = "Returns paginated history of points for the current user"
+    )
     @GetMapping("/history")
     public ResponseData<BasePageResponse<PointHistoryResponse>> history(Pageable pageable) {
         BasePageResponse<PointHistoryResponse> result = pointService.getPointHistory(pageable);
         return new ResponseData<>(result);
     }
 
+    @Operation(
+            summary = "Deduct points from user",
+            description = "Deducts a specified number of points from the currently logged-in user."
+    )
     @PostMapping("/deduct")
     public ResponseData<?> deduct(@RequestParam int point) {
         pointService.deduct(RequestContext.getUserId(), point);
